@@ -1,0 +1,213 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+/* Estilos para o cabeçalho (header) */
+header {
+    background-color: #1f1f1f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Estilos para a barra de navegação (nav) */
+nav {
+    background-color: #333;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+main{
+    margin-top: 80px;
+    margin-left: 50px ;
+    margin-right: 80px ;
+    
+}
+
+
+/* Estilos para a seção "Sobre Mim" no main */
+.sobre-texto {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    
+}
+
+.sobre-imagem {
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.sobre-imagem img {
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+    margin-left: 300px;
+}
+
+
+.container {
+    margin: 9px;
+    display: inline-flex;
+    justify-content: space-between;
+     /* Distribui o espaço igualmente entre as imagens */
+}
+
+.imagem {
+    flex: auto; /* Cada imagem ocupa a mesma quantidade de espaço */
+    margin-right: 10px; /* Espaço entre as imagens (opcional) */
+ 
+}
+
+.imagem:last-child {
+    margin-right: 0; /* Remove a margem à direita da última imagem */
+}
+
+/* Estilização adicional para as imagens */
+.imagem img {
+    max-width: 100%;
+    height: auto;
+}
+
+.imagem1 img {
+    height: 500px ;    
+}
+
+.projetos {
+    display: inline-flex;
+    margin-top: 200px;
+    margin-left: 20px;
+    color: #fff;
+    align-items: center;
+}
+
+section >  p {
+    margin-left: 20px;
+    color: #ffffff;
+}
+
+.Certicados{
+    color: #fff;
+}
+
+.container a{
+    font-style: none;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.Links {
+    color: #fff;
+}
+
+
+
+
+
+
+.container-button {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.container-button h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilos para o formulário */
+.container-button form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-button label {
+    margin-top: 10px;
+}
+
+.container-button input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container-button button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.container-button button:hover {
+    background-color: #555;
+}
+
+
+
+
+.container-MEUSCONTATOS {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-top: 10px ;
+    margin-bottom: 50px ;
+    
+}
+
+.container-MEUSCONTATOS h1 {
+    text-align: center;
+    color: #333;
+}
+
+.container-MEUSCONTATOS p {
+    color: #333;
+}
+
+.container-MEUSCONTATOS h2 {
+    color: #333;
+}
+
+.container-MEUSCONTATOS a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+.container-MEUSCONTATOS a:hover {
+    text-decoration: underline;
+}
